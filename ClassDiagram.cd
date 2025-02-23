@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BookSalesSystem2._0.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.Migrations.AddBooksTable" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20250216091801_AddBooksTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.Migrations.AddOrders" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20250217090617_AddOrders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.Migrations.BookSalesSystemContextModelSnapshot" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\BookSalesSystemContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.AddBookControl" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChAEBAUACCQAABAAAACAAAAiQABIAAAAAAAQAQAAAgA=</HashCode>
+      <FileName>AddBookControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.Book" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgEAAgAIAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.BookControl" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAYAAyAAAFAAgAKAAAACwAigAAAABIAAAAAAQgE=</HashCode>
+      <FileName>BookControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.BookSalesSystemContext" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAQEAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BookSalesSystemContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.BookService" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAEAAEAAgAAAAEAAAAA=</HashCode>
+      <FileName>BookService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.GenerateReports" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAEAA=</HashCode>
+      <FileName>GenerateReports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.JsonOperationBook" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAAAgAEAAAAAAAAAAAAABEAAAAAAABAAAAA=</HashCode>
+      <FileName>JsonOperationBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.JsonOperationOrder" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAAAAAEAAAAAAAAAAAAAAEAAAEAAAAAAAAg=</HashCode>
+      <FileName>JsonOperationOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.LoginForm" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAQyAAAhAABACAAkACAIAAAAQCAAAAAAQAAAA=</HashCode>
+      <FileName>LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.MainControl" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASABECAAAAAAAACAAAACAAKAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MainControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.MainForm" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIIgACAAYBAAAAGAAAACgEBABAAAIAAAAAAEAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.Order" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAgAAAEBAAAAAAAAAAAUAAAwAAAQAAACAAAAAAAAAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.OrderControl" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAgASAAEBQYAgKGABFSAAAAAAIBAAQAASgQAAE=</HashCode>
+      <FileName>OrderControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.OrderHistoryControl" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAIEBCABABQAAACAVAACQQAAQAAICAAQAAAAAok=</HashCode>
+      <FileName>OrderHistoryControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.OrderItem" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECCBAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.OrderService" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAEAAAAEAAAAACAEAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>OrderService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.Program" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.RegisterForm" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAEwEACAAABAAwACCAgACQAACBAAAEAgABgAAAAA=</HashCode>
+      <FileName>RegisterForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.ReportsControl" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAABpACAAABQAACCAABACAAIgAAAgAlQAAwAAAAA=</HashCode>
+      <FileName>ReportsControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.UpdatedBookForm" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChAECAUACCYAABAIBACAAAAiAAAAAAAAAAQQAQAAAAg=</HashCode>
+      <FileName>UpdatedBookForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.UpdatedOrderForm" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAACQgABAQAgKCABECAAAAAQAAAgAQASgAAAA=</HashCode>
+      <FileName>UpdatedOrderForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.User" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAAAAAAAAAAIAAAAAAAACAAAAgAAAIAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.UserService" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>UserService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.ValidateBookInput" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValidateBookInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.ValidateOrderInput" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValidateOrderInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookSalesSystem2._0.ValidateUserInput" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValidateUserInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BookSalesSystem2._0.OrderStatus" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAAAEAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BookSalesSystem2._0.PaymentStatus" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaymentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
