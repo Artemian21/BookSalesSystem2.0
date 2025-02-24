@@ -13,7 +13,7 @@ namespace BookSalesSystem2._0
 
             Application.EnableVisualStyles();
             ApplicationConfiguration.Initialize();
-            Application.Run(new LoginForm());
+            Application.Run(new MainForm());
         }
     }
 }
