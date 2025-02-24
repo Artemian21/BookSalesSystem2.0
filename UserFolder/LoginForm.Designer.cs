@@ -161,7 +161,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources.iconEmail;
             pictureBox1.Location = new Point(73, 200);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(40, 30);
@@ -171,7 +171,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources.iconPassword;
             pictureBox2.Location = new Point(76, 316);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(37, 30);
@@ -196,7 +196,7 @@
             Controls.Add(topPanel);
             ForeColor = SystemColors.ActiveCaptionText;
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            Icon = Properties.Resources.BssIcon;
             Margin = new Padding(3, 5, 3, 5);
             MaximizeBox = false;
             Name = "LoginForm";

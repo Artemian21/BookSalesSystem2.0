@@ -57,8 +57,8 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
+            pictureBox1.Image = Properties.Resources.Bss;
+            pictureBox1.InitialImage = Properties.Resources.Bss;
             pictureBox1.Location = new Point(12, 21);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(217, 85);
@@ -171,7 +171,7 @@
             ClientSize = new Size(1159, 820);
             Controls.Add(panelContainer);
             Controls.Add(panelLeft);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            Icon = Properties.Resources.BssIcon;
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "BSS";

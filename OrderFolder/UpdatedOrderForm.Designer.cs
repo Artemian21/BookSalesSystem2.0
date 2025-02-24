@@ -303,7 +303,7 @@ namespace BookSalesSystem2._0
             Controls.Add(titleField);
             Controls.Add(cancelButton);
             Controls.Add(saveOrderButton);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            Icon = Properties.Resources.BssIcon;
             Name = "UpdatedOrderForm";
             StartPosition = FormStartPosition.CenterParent;
             Text = "BSS";

@@ -255,7 +255,7 @@
             Controls.Add(titleField);
             Controls.Add(cancelButton);
             Controls.Add(saveBookButton);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            Icon = Properties.Resources.BssIcon;
             Name = "UpdatedBookForm";
             StartPosition = FormStartPosition.CenterParent;
             Text = "BSS";

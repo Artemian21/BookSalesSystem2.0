@@ -245,7 +245,7 @@
             Controls.Add(regLastNameField);
             Controls.Add(topPanel);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            Icon = Properties.Resources.BssIcon;
             MaximizeBox = false;
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;
