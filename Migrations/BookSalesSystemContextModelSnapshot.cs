@@ -17,12 +17,12 @@ namespace BookSalesSystem2._0.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.2")
+                .HasAnnotation("ProductVersion", "9.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("BookSalesSystem2._0.Book", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.BookFolder.Book", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -60,11 +60,13 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.Order", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.Order", b =>
                 {
-                    b.Property<Guid>("OrderId")
+                    b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
 
                     b.Property<string>("CustomerEmail")
                         .IsRequired()
@@ -107,7 +109,7 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.OrderItem", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.OrderItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -118,8 +120,8 @@ namespace BookSalesSystem2._0.Migrations
                     b.Property<int>("BookID")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("OrderID")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("OrderID")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
@@ -138,7 +140,7 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("OrderItems");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.User", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.UserFolder.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -167,9 +169,9 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.OrderItem", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.OrderItem", b =>
                 {
-                    b.HasOne("BookSalesSystem2._0.Order", "Order")
+                    b.HasOne("BookSalesSystem2._0.OrderFolder.Order", "Order")
                         .WithMany("Books")
                         .HasForeignKey("OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -178,7 +180,7 @@ namespace BookSalesSystem2._0.Migrations
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.Order", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.Order", b =>
                 {
                     b.Navigation("Books");
                 });

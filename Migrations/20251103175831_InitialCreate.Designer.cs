@@ -12,20 +12,20 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookSalesSystem2._0.Migrations
 {
     [DbContext(typeof(BookSalesSystemContext))]
-    [Migration("20250217090617_AddOrders")]
-    partial class AddOrders
+    [Migration("20251103175831_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.2")
+                .HasAnnotation("ProductVersion", "9.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("BookSalesSystem2._0.Book", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.BookFolder.Book", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -63,7 +63,7 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.Order", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.Order", b =>
                 {
                     b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd()
@@ -112,7 +112,7 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.OrderItem", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.OrderItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -143,7 +143,7 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("OrderItems");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.User", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.UserFolder.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -172,9 +172,9 @@ namespace BookSalesSystem2._0.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.OrderItem", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.OrderItem", b =>
                 {
-                    b.HasOne("BookSalesSystem2._0.Order", "Order")
+                    b.HasOne("BookSalesSystem2._0.OrderFolder.Order", "Order")
                         .WithMany("Books")
                         .HasForeignKey("OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -183,7 +183,7 @@ namespace BookSalesSystem2._0.Migrations
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("BookSalesSystem2._0.Order", b =>
+            modelBuilder.Entity("BookSalesSystem2._0.OrderFolder.Order", b =>
                 {
                     b.Navigation("Books");
                 });
