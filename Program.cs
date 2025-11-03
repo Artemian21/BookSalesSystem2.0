@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace BookSalesSystem2._0
 {
     internal static class Program
@@ -13,7 +15,13 @@ namespace BookSalesSystem2._0
 
             Application.EnableVisualStyles();
             ApplicationConfiguration.Initialize();
-            Application.Run(new MainForm());
+
+            using (var context = new BookSalesSystemContext())
+            {
+                context.Database.Migrate();
+            }
+
+            Application.Run(new LoginForm());
         }
     }
 }
